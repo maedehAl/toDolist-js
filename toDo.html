@@ -1,0 +1,64 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="toDoStyle.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body dir="rtl">
+
+    <h1 class="text-right">لیست کارهای روزانه</h1>
+    <div class="container-fluid text-center">
+        <!-- دادن یه کلاس به همه لیست ها و فراخوانی با نام کلاس در جاوا اسکریپت -->
+        <div class="row">
+            <!-- <div id="main" class="col-3 list-group shadow-lg m-5 p-3 bg-white rounded align-self-start">
+                <input type="text" id="text">
+                <button id="btn1">اضافه</button>
+
+            </div> -->
+            <!--start list 1 -->
+            <div id="list1" class="col-3 list-group shadow-lg m-5 p-3 bg-white rounded align-self-start">
+                <span id="lstSpan1" onclick="CreateList(1)"><i class="fas fa-plus-square ml-3"></i>ایجاد لیست جدید</span>
+
+
+            </div>
+            <!-- end list 1 -->
+
+            <!--start list 2 -->
+            <div id="list2" class="col-3 list-group shadow-lg m-5 p-3 bg-white rounded align-self-start">
+                <span id="lstSpan2" onclick="CreateList(2)"><i class="fas fa-plus-square ml-3"></i>ایجاد لیست جدید</span>
+
+
+            </div>
+            <!-- end list 2 -->
+
+            <!-- start list 3 -->
+            <div id="list3" class="col-3 list-group shadow-lg m-5 p-3 bg-white rounded align-self-start">
+                <span id="lstSpan3" onclick="CreateList(3)"><i class="fas fa-plus-square ml-3"></i>ایجاد لیست جدید</span>
+
+
+            </div>
+            <!-- end list 3 -->
+        </div>
+        <!-- end all list -->
+
+
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+        crossorigin="anonymous">
+</body>
+<script src="toDojs.js"></script>
+
+</html>

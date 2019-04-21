@@ -1,0 +1,13 @@
+ul {
+    background-color: gray;
+    list-style: none;
+    padding: 10px;
+}
+
+li {
+    background-color: white;
+}
+
+#list1 p{
+/* background-color: darkgrey; */
+}
